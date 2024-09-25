@@ -1,0 +1,69 @@
+/* Add your CSS here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white; /* Set default text color for better readability */
+}
+
+header {
+    background-color: #f53;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#aa {
+    text-decoration: none; /* Remove underline */
+    font-size: 20px;
+    color: #ff2; /* Active link color */
+}
+#aa:focus{
+  outline: none;
+  box-shadow: none;
+  transform-style: none;
+}
+/* Remove click shadow from anchor tags */
+a:focus, a:active {
+    outline: none; /* Remove the outline */
+    box-shadow: none; /* Remove any box shadow */
+}
+
+.main {
+    padding: 20px;
+    text-align: center; /* Center the text */
+}
+
+.footerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIcon {
+    padding: 0 35px; /* Adjust padding as needed */
+}
+
+.footerIcon a {
+    color: tomato; /* Icon color */
+    font-size: 25px; /* Icon size */
+    text-decoration: none; /* Remove underline from icons */
+}
+
+/* Optionally remove active state transition for footer icons */
+.footerIcon a.active {
+    background-color: #ff2;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Modern shadow effect */
+    border-radius: 10px;
+    width: 100%;
+    bottom: 0;
+}
